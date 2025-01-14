@@ -1,0 +1,7 @@
+.main {
+  max-width: 76rem;
+}
+.wrapper {
+  border: 2px red solid;
+  width: 50rem;
+}
