@@ -1,9 +1,12 @@
 import styles from "./page.module.css";
+import Weather from "./components/Weather/Weather";
 
 const page = () => {
   return (
     <div className={styles.main}>
-      <div className={styles.wrapper}>waether app</div>
+      <div>
+        <Weather />
+      </div>
     </div>
   );
 };

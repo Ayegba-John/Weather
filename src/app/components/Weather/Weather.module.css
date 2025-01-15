@@ -1,0 +1,16 @@
+.main {
+  max-width: 76rem;
+  place-self: center;
+  padding: 2.5rem;
+  border-radius: 2rem;
+}
+.wrapper {
+  border: 2px red solid;
+  min-height: 100vh;
+  display: grid;
+  background-color: #001eff;
+}
+.search_icon {
+  width: 1.5rem;
+  padding-top: 0.5rem;
+}
