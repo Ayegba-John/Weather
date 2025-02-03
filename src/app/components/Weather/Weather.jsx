@@ -10,7 +10,7 @@ const Weather = () => {
   const [city, setCity] = useState("Lagos");
   const [loading, setLoading] = useState(false);
 
-  const API_KEY = "9cb5925ea78890141650c8af8eb09757";
+  const API_KEY = "ef5384d8db4a7a92d04537af5d6c80ca";
   const API_URL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
 
   useEffect(() => {
