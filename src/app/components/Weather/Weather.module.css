@@ -1,16 +1,53 @@
-.main {
-  max-width: 76rem;
-  place-self: center;
-  padding: 2.5rem;
-  border-radius: 2rem;
+/* src/App.css */
+.App {
+  text-align: center;
+  padding: 20px;
 }
-.wrapper {
-  border: 2px red solid;
-  min-height: 100vh;
-  display: grid;
-  background-color: #001eff;
+
+.weather_app {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
 }
-.search_icon {
-  width: 1.5rem;
-  padding-top: 0.5rem;
+
+.search_container {
+  margin-bottom: 20px;
+}
+
+.search_container input {
+  padding: 10px;
+  width: 70%;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search_container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.search_container button:hover {
+  background-color: #0056b3;
+}
+
+.weather_info {
+  margin-top: 20px;
+}
+
+.weather_info h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.weather_info p {
+  margin: 5px 0;
+  font-size: 18px;
 }
